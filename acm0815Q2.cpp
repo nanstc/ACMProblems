@@ -15,7 +15,6 @@ int main() {
         cout << "Games: " << g << endl;
         cout << "Points: " << p << endl;
         cout << "Possible records:" << endl;
-        //TODO print out possible combos based on w-t-l format, descending by wins
         int w, t, l;
         w = p / 3;
         while (w >= 0) {
